@@ -3,7 +3,7 @@
 #### 介绍
 
  **接口地址：** 
-[http://43.134.72.92/public/dateAnalysis](http://)
+[http://zctool.xyz/public/dateAnalysis](http://)
 
  **请求方式：** GET、POST
 
@@ -21,7 +21,7 @@
 - data.wtw：是否工作日（工作日，休息日）
 
  **请求例子：** 
-GET [http://43.134.72.92/public/dateAnalysis?date=2022-01-01](http://)
+GET [http://zctool.xyz/public/dateAnalysis?date=2022-01-01](http://)
 ```json
 {
   "message": "操作成功",
