@@ -3,7 +3,7 @@
 #### 介绍
 
  **接口地址：** 
-[http://192.168.0.1/public/dateAnalysis](http://)
+[http://43.134.72.92/public/dateAnalysis](http://)
 
  **请求方式：** GET、POST
 
@@ -20,7 +20,7 @@
 - data.wtw：是否工作日（工作日，休息日）
 
  **请求例子：** 
-GET [http://localhost:8363/public/dateAnalysis?date=2022-01-12](http://)
+GET [http://43.134.72.92/public/dateAnalysis?date=2022-01-12](http://)
 ```json
 {
   "message": "操作成功",
