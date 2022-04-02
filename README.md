@@ -21,7 +21,7 @@
 
  **请求例子：** 
 GET [http://localhost:8363/public/dateAnalysis?date=2022-01-12](http://)
-
+```json
 {
   "message": "操作成功",
   "code": 0,
@@ -32,6 +32,6 @@ GET [http://localhost:8363/public/dateAnalysis?date=2022-01-12](http://)
     "wtw": "工作日"
   }
 }
-
+```
  **请求频率：** 一天100次（如需大量请求，请联系QQ：137357621）
 
