@@ -21,17 +21,17 @@
 - data.wtw：是否工作日（工作日，休息日）
 
  **请求例子：** 
-GET [http://43.134.72.92/public/dateAnalysis?date=2022-01-12](http://)
+GET [http://43.134.72.92/public/dateAnalysis?date=2022-01-01](http://)
 ```json
 {
   "message": "操作成功",
   "code": 0,
   "data": {
-    "dt": "平日",
-    "dow": "3",
-    "ft": "无",
-    "wtw": "工作日",
-    "date": "2022-01-12"
+    "dt": "放假",
+    "date": "2022-01-01",
+    "wtw": "休息日",
+    "dow": "6",
+    "ft": "元旦"
   }
 }
 ```
