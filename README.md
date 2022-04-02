@@ -14,6 +14,7 @@
 - message：操作信息
 - data：日期结果
 
+- data.date：日期（yyyy-MM-dd格式）
 - data.dt：日期类型（平日，补班，放假）
 - data.dow：周几（1-7）
 - data.ft：节日类型（无，元旦，春节，清明，劳动节，端午节，中秋节，国庆节）
@@ -29,7 +30,8 @@ GET [http://43.134.72.92/public/dateAnalysis?date=2022-01-12](http://)
     "dt": "平日",
     "dow": "3",
     "ft": "无",
-    "wtw": "工作日"
+    "wtw": "工作日",
+    "date": "2022-01-12"
   }
 }
 ```
