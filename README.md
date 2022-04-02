@@ -1,37 +1,36 @@
 # 日期分析节假日分析工作日分析
 
 #### 介绍
-接口地址
+接口地址：
+http://192.168.0.1/public/dateAnalysis
 
-#### 软件架构
-软件架构说明
+请求方式：GET、POST
 
+请求参数：date（yyyy-MM-dd格式）
 
-#### 安装教程
+返回结果：
+code：请求状态码（0成功，非0错误）
+message：操作信息
+data：日期结果
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+data.dt：日期类型（平日，补班，放假）
+data.dow：周几（1-7）
+data.ft：节日类型（元旦，春节，清明，劳动节，端午节，中秋节，国庆节）
+data.wtw：是否工作日（工作日，休息日）
 
-#### 使用说明
+请求例子：
+GET http://localhost:8363/public/dateAnalysis?date=2022-01-12
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+{
+  "message": "操作成功",
+  "code": 0,
+  "data": {
+    "dt": "平日",
+    "dow": "3",
+    "ft": "无",
+    "wtw": "工作日"
+  }
+}
 
-#### 参与贡献
+请求频率：一天100次（如需大量请求，请联系QQ：137357621）
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
